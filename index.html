@@ -411,11 +411,11 @@
         <h1>Tools</h1>
         <hr>
         <ul>
-          <li>DocumentCSS</li>
-          <li><strong>SourceJS</strong></li>
-          <li>SC5 Style Guide Generator</li>
-          <li>KSS Knyle Style Sheets</li>
-          <li><strong>Pattern lab</strong></li>
+          <li class="next">DocumentCSS</li>
+          <li class="next"><strong>SourceJS</strong></li>
+          <li class="next">SC5 Style Guide Generator</li>
+          <li class="next">KSS Knyle Style Sheets</li>
+          <li class="next"><strong>Pattern lab</strong></li>
         </ul>
       </div>
       <style>
@@ -429,6 +429,107 @@
       }
       </style>
     </section>
+
+    <section class="slide" id="sourcejs">
+      <div>
+        <h1>SourceJS</h1>
+        <hr>
+        <div>Install and use</div>
+        <ul>
+          <li><code>git clone https://github.com/sourcejs/init.git -b npm my-sourcejs &amp;&amp; cd my-sourcejs</code></li>
+          <li><code>npm install sourcejs --save </code></li>
+          <li><code>npm start</code></li>
+          <li>SASS/LESS/PostCSS</li>
+          <li>MarkDown, HAML, HTML</li>
+        </ul>
+        <div class="need next">
+          <div class="note">Requires</div>
+          <img src="pictures/node.svg">
+        </div>
+      </div>
+      <style>
+      #sourcejs h1 {
+        font-size: 1.8em;
+        font-weight: bold;
+        line-height: 1;
+      }
+      #sourcejs .note {
+        color:#999;
+      }
+      #sourcejs ul {
+        font-family: "Lora", serif;
+      }
+      #sourcejs .need {
+        position:absolute;
+        right:40px;
+        top:50%;
+      }
+      #sourcejs img {
+        width:200px;
+        background:#333333;
+        padding:20px;
+
+      }
+      </style>
+    </section>
+
+    <section class="slide" id="usage">
+      <div>
+        <h1>File structure</h1>
+        <hr>
+          <img src="pictures/files.png">
+      </div>
+      <style>
+      #usage h1 {
+        font-size: 1.8em;
+        font-weight: bold;
+        line-height: 1;
+      }
+      #usage img {
+        width:100%;
+        padding:10px;
+
+      }
+      </style>
+    </section>
+
+
+        <section class="slide" id="credit">
+          <div>
+            <h1>Credits</h1>
+            <hr>
+            <ul>
+              <li><a href="http://blog.bitovi.com/style-guide-driven-development/">Bitovi - Style Guide Driven development</a></li>
+              <li><a href="https://blog.hannahcdesign.com/how-to-maintain-product-ux-consistency-71f58df0a91f?source=latest---------1">How to maintain product UX consistency?</a></li>
+              <li><a href="https://twitter.com/bitovi" class="twitter">@bitovi </a></li>
+              <li><a href="https://twitter.com/adrifolio" class="twitter">@adrifolio </a></li>
+              <li><a href="https://twitter.com/varya_en" class="twitter">@varya_en</a></li>
+              <li><a href="https://twitter.com/HannahCDesign" class="twitter">@HannahCDesign</a></li>
+          </div>
+          <style>
+          #credit h1 {
+            font-size: 1.8em;
+            font-weight: bold;
+            line-height: 1;
+          }
+          #credit a {
+            text-decoration: underline;
+            background: none;
+            }
+          #credit .twitter::before {
+                content: "";
+                display: inline-block;
+                width: 1.5em;
+                height: 1.5em;
+                background-image: url('pictures/twitter-logo.png');
+                background-size: cover;
+                margin-right: 0.5em;
+                margin-bottom: -0.5em;
+                text-decoration: none;
+            }
+          </style>
+        </section>
+
 
 
 
