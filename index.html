@@ -1,160 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Styleguide driven development</title>
+  <title>Style Guide Driven Development or Lego for Designers & Developers</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=792, user-scalable=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600,300' rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic" rel="stylesheet" type="text/css">
+  <!-- <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700' rel='stylesheet' type='text/css'> -->
   <link rel="stylesheet" href="styles/screen.css">
   <style>
     body {
       font-family: 'Source Sans Pro', sans-serif;
+      /*font-family: 'Lato', sans-serif;*/
     }
+
     .light {
-      font-weight:100;
+      font-weight: 100;
+    }
+
+    hr {
+      border: 0;
+      height: 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .slide:after {
+      right:20px;
+      font-family: 'Source Sans Pro', sans-serif;
     }
   </style>
 </head>
+
 <body>
+
   <body class="list">
-  	<!--
+    <!--
   		Debug class on <body> enables
   		cyan grid on slides
   		-->
-  	<header class="caption">
-  		<h1>StyleGuide driven development</h1>
-  		<p>Kiril Abaškin</p>
-  	</header>
+    <header class="caption">
+      <h1>Style Guide Driven Development or <br> Lego for Designers & Developers</h1>
+      <p>Kiril Abaškin</p>
+    </header>
 
 
-  	<section class="slide" id="first">
-  		<div>
+    <section class="slide" id="first">
+      <div>
         <div class="first">
-          <h1>Style Guide <br> Driven Development</h1>
-          <h1><span class="light">or</span></h1>
-          <h1 class="light">Lego for Designers <br> and Developers</h1>
+          <h1>Style Guide
+            <br> Driven Development or</h1>
+          <h1 style="color:#FACD06;">Lego for Designers
+            <br> & Developers</h1>
           <img class="lego" src="pictures/lego-man2.png">
         </div>
-  		</div>
+      </div>
       <style>
         #first {
-          background:black;
-          color:#fff;
-          text-align:left;
-          font-weight:bold;
+          background: black;
+          color: #fff;
+          text-align: left;
+          font-weight: bold;
         }
-        #first h1 {
-          font-size:2em;
-          line-height:1.5;
 
+        #first h1 {
+          font-size: 2.5em;
+          line-height: 1.5;
         }
+
         #first img.lego {
-          position:absolute;
-          bottom:0px;
-          right:10%;
-          margin-top:12px;
-          width:450px;
+          position: absolute;
+          bottom: 0px;
+          right: 5%;
+          margin-top: 12px;
+          width: 400px;
         }
-        p { margin:0 !important;}
+
+        #first p {
+          margin: 0 !important;
+        }
       </style>
-  	</section>
+    </section>
     <section class="slide" id="second">
       <div>
         <h1>The SGDD Process</h1>
+        <hr>
         <img src="pictures/sgdd-flow.png">
       </div>
       <style>
         #second h1 {
           /*text-align:center;*/
-          font-size:1.8em;
+          font-size: 1.8em;
+          font-weight: 900;
+          line-height: 1;
         }
+
         #second img {
-          margin-top:36px;
-          width:100%;
+          margin-top: 36px;
+          width: 100%;
         }
       </style>
     </section>
 
     <section class="slide" id="third">
-  		<div>
+      <div>
         <h1>Determining tasks/stories</h1>
+        <hr>
         <img src="pictures/break-down-stories.png">
 
-  		</div>
+      </div>
       <style>
         #third h1 {
-          /*text-align:center;*/
-          font-size:1.8em;
+          font-weight: bold;
+          font-size: 1.8em;
+          line-height: 1;
         }
+
         #third img {
-          margin-top:36px;
-          width:400px;
+          margin-top: 36px;
+          width: 400px;
         }
       </style>
-  	</section>
+    </section>
 
     <section class="slide" id="fourth">
-  		<div>
+      <div>
         <h1>Implement and Document</h1>
+        <hr>
         <img src="pictures/implement-and-document.png">
 
-  		</div>
+      </div>
       <style>
-      #fourth h1 {
-        font-size:1.8em;
-      }
-      #fourth img {
-        margin-top:36px;
-        width:400px;
-      }
-      </style>
-  	</section>
+        #fourth h1 {
+          font-size: 1.8em;
+          font-weight: 900;
+          line-height: 1;
+        }
 
-    <section class="slide" id="five">
-  		<div>
-        <h1> Plug & Play Component</h1>
-        <img src="pictures/plug-and-play.jpg" alt="">
-  		</div>
-      <style>
-      #five h1 {
-        font-size:1.8em;
-      }
-      #five img {
-        margin-top:15%;
-        width:100%;
-      }
-      </style>
-  	</section>
-
-    <section class="slide" id="six">
-  		<div>
-        <h1>The Communication Benefit</h1>
-        <img src="pictures/team-communication.png">
-  		</div>
-      <style>
-      #six h1 {
-        font-size:1.8em;
-      }
-      #six img {
-        margin-top:0;
-        width:auto;
-        height:80%;
-      }
-      </style>
-  	</section>
-
-    <section class="slide" id="seven">
-  		<div>
-        <img src="pictures/comment.png">
-  		</div>
-      <style>
-        #seven img {
-          width:100%;
+        #fourth img {
+          margin-top: 36px;
+          width: 400px;
         }
       </style>
-  	</section>
+    </section>
+
+    <section class="slide" id="five">
+      <div>
+        <h1> Plug & Play Component</h1>
+        <hr>
+        <img src="pictures/plug-and-play.jpg" alt="">
+      </div>
+      <style>
+        #five h1 {
+          font-size: 1.8em;
+          line-height: 1;
+          font-weight: 900;
+        }
+
+        #five img {
+          margin-top: 15%;
+          width: 100%;
+        }
+      </style>
+    </section>
+
+    <section class="slide" id="six">
+      <div>
+        <h1>The Communication Benefit</h1>
+        <hr>
+        <img src="pictures/team-communication.png">
+      </div>
+      <style>
+        #six h1 {
+          font-size: 1.8em;
+          font-weight: 900;
+          line-height: 1;
+        }
+
+        #six img {
+          margin-top: 0;
+          width: auto;
+          height: 80%;
+        }
+      </style>
+    </section>
+
+    <section class="slide" id="seven">
+      <div>
+        <img src="pictures/comment.png">
+      </div>
+      <style>
+        #seven img {
+          width: 100%;
+        }
+
+        #seven p {
+          font-family: "Lora", serif;
+          font-size: .8em;
+        }
+      </style>
+    </section>
 
 
     <section class="slide" id="eight">
@@ -163,14 +210,15 @@
       </div>
       <style>
         #eight {
-          color:#fff;
-          background:#f9423a;
+          color: #fff;
+          background: #f9423a;
         }
+
         #eight h1 {
-          font-size:3.5em;
-          font-weight:bold;
-          text-align:center;
-          margin:15% auto;
+          font-size: 3.5em;
+          font-weight: bold;
+          text-align: center;
+          margin: 15% auto;
         }
       </style>
     </section>
@@ -181,12 +229,11 @@
       </div>
       <style>
         #nine {
-          color:#fff;
-          background:url('pictures/atomic-design.png');
-          background-size:contain;
+          color: #fff;
+          background: url('pictures/atomic-design.png');
+          background-size: contain;
           background-position: center center;
         }
-
       </style>
     </section>
 
@@ -196,23 +243,304 @@
       </div>
       <style>
         #ten {
-          color:#fff;
-          background:url('pictures/atomic-rules.png') no-repeat;
-          background-size:contain;
+          color: #fff;
+          background: url('pictures/atomic-rules.png') no-repeat;
+          background-size: contain;
           background-position: center center;
-          background-color:#fff;
+          background-color: #fff;
+        }
+      </style>
+    </section>
+
+    <section class="slide" id="atomic">
+      <div>
+        <blockquote>
+          <dl>
+            <dt><a href="https://www.google.com/search?q=define%3A+atomic">a·tom·ic</a><sup class="po" id="note-12"></sup></dt>
+            <dd>/ə’tämik/</dd>
+            <dd>
+              <em>of or forming a single irreducible unit or component in a larger system.</em>
+            </dd>
+          </dl>
+        </blockquote>
+
+        <blockquote class="twitter-tweet" data-twitter-extracted-i1449221897922566905="true">
+          <p>“Treat code like Lego. Break code into the smallest little blocks possible.” — <a href="https://twitter.com/csswizardry">@csswizardry</a><sup class="po" id="note-13"><a href="#13">13</a></sup> (via <a href="https://twitter.com/stubbornella">@stubbornella</a>
+            <sup
+            class="po" id="note-14"><a href="#14">14</a></sup>) <a href="https://twitter.com/search?q=%23btconf&amp;src=hash">#btconf</a><sup class="po" id="note-15"><a href="#15">15</a></sup></p>
+          <p>— Smashing Magazine (@smashingmag) <a href="https://twitter.com/smashingmag/statuses/339024926197559296">May 27, 2013</a><sup class="po" id="note-16"><a href="#16">16</a></sup></p>
+        </blockquote>
+      </div>
+      <style>
+        #atomic {
+          font-family: 'Lora', serif;
+          font-size: 0.9em;
         }
 
+        #atomic blockquote:last-child {
+          margin-top: 10%;
+        }
+      </style>
+    </section>
+
+
+    <section class="slide anna" id="eleven">
+      <div>
+        <div class="photo"></div>
+        <blockquote>
+          <p>Websites are systems rather than pages and as soon as we stop perceiving them as that, the better.</p>
+        </blockquote>
+        <figcaption>Anna Debenham</figcaption>
+      </div>
+      <style>
+        #eleven {
+          font-family: 'Lora', serif;
+          color: #000;
+          background: #FFF;
+        }
+
+        .anna .photo {
+          background-image: url('pictures/anna.jpg');
+          width: 350px;
+          height: 350px;
+          border-radius: 50%;
+          background-position: top right;
+          border: #999 solid 5px;
+          float: right;
+          margin-top: 2em;
+        }
+
+        .anna blockquote {
+          margin-right: 390px;
+        }
+
+        .anna blockquote p {
+          margin-top: 4em;
+        }
+      </style>
+    </section>
+
+
+    <section class="slide" id="modular">
+      <div>
+        <h1> Modular CSS</h1>
+        <hr>
+
+        <ul>
+          <li>OOCSS</li>
+          <li>SMACSS</li>
+          <li>BEM</li>
+          <li>Atomic design</li>
+        </ul>
+
+        <p class="note">or any other modular solution</p>
+
+      </div>
+      <style>
+        #modular {
+          background-size: contain;
+          background-position: center center;
+          background-color: #fff;
+        }
+
+        #modular h1 {
+          font-size: 1.8em;
+          font-weight: bold;
+          line-height: 1;
+        }
+
+        #modular h3 {
+          font-weight: bold;
+          font-size: 1.2em;
+        }
+
+        #modular h3,
+        #modular p,
+        #modular ul {
+          font-family: "Lora", serif;
+          line-height: 2;
+        }
       </style>
     </section>
 
 
 
+    <section class="slide" id="mindset">
+      <div>
+        <h1> Developer's mindset </h1>
+        <hr>
+        <h3>Before</h3>
+        <p>What markup, CSS and JS I need?</p>
+
+        <h3>After</h3>
+        <p>What modules is this page made of? Do I need to create new modules?
+          <br>
+          <strong>Future modules and pages start in style guide.</stron>
+        </p>
+
+
+      </div>
+      <style>
+        #mindset {
+          background-size: contain;
+          background-position: center center;
+          background-color: #fff;
+        }
+
+        #mindset h1 {
+          font-size: 1.8em;
+          font-weight: bold;
+          line-height: 1;
+        }
+
+        #mindset h3 {
+          font-weight: bold;
+          font-size: 1.2em;
+        }
+
+        #mindset h3,
+        #mindset p {
+          font-family: "Lora", serif;
+          line-height: 1.5;
+        }
+      </style>
+    </section>
+
+    <section class="slide" id="tools">
+      <div>
+        <h1>Tools</h1>
+        <hr>
+        <ul>
+          <li class="next">DocumentCSS</li>
+          <li class="next"><strong>SourceJS</strong></li>
+          <li class="next">SC5 Style Guide Generator</li>
+          <li class="next">KSS Knyle Style Sheets</li>
+          <li class="next"><strong>Pattern lab</strong></li>
+        </ul>
+      </div>
+      <style>
+      #tools h1 {
+        font-size: 1.8em;
+        font-weight: bold;
+        line-height: 1;
+      }
+      #tools ul {
+        font-family: "Lora", serif;
+      }
+      </style>
+    </section>
+
+    <section class="slide" id="sourcejs">
+      <div>
+        <h1>SourceJS</h1>
+        <hr>
+        <div>Install and use</div>
+        <ul>
+          <li><code>git clone https://github.com/sourcejs/init.git -b npm my-sourcejs &amp;&amp; cd my-sourcejs</code></li>
+          <li><code>npm install sourcejs --save </code></li>
+          <li><code>npm start</code></li>
+          <li>SASS/LESS/PostCSS</li>
+          <li>MarkDown, HAML, HTML</li>
+        </ul>
+        <div class="need next">
+          <div class="note">Requires</div>
+          <img src="pictures/node.svg">
+        </div>
+      </div>
+      <style>
+      #sourcejs h1 {
+        font-size: 1.8em;
+        font-weight: bold;
+        line-height: 1;
+      }
+      #sourcejs .note {
+        color:#999;
+      }
+      #sourcejs ul {
+        font-family: "Lora", serif;
+      }
+      #sourcejs .need {
+        position:absolute;
+        right:40px;
+        top:50%;
+      }
+      #sourcejs img {
+        width:200px;
+        background:#333333;
+        padding:20px;
+
+      }
+      </style>
+    </section>
+
+    <section class="slide" id="usage">
+      <div>
+        <h1>File structure</h1>
+        <hr>
+          <img src="pictures/files.png">
+      </div>
+      <style>
+      #usage h1 {
+        font-size: 1.8em;
+        font-weight: bold;
+        line-height: 1;
+      }
+      #usage img {
+        width:100%;
+        padding:10px;
+
+      }
+      </style>
+    </section>
+
+
+        <section class="slide" id="credit">
+          <div>
+            <h1>Credits</h1>
+            <hr>
+            <ul>
+              <li><a href="http://blog.bitovi.com/style-guide-driven-development/">Bitovi - Style Guide Driven development</a></li>
+              <li><a href="https://blog.hannahcdesign.com/how-to-maintain-product-ux-consistency-71f58df0a91f?source=latest---------1">How to maintain product UX consistency?</a></li>
+              <li><a href="https://twitter.com/bitovi" class="twitter">@bitovi </a></li>
+              <li><a href="https://twitter.com/adrifolio" class="twitter">@adrifolio </a></li>
+              <li><a href="https://twitter.com/varya_en" class="twitter">@varya_en</a></li>
+              <li><a href="https://twitter.com/HannahCDesign" class="twitter">@HannahCDesign</a></li>
+          </div>
+          <style>
+          #credit h1 {
+            font-size: 1.8em;
+            font-weight: bold;
+            line-height: 1;
+          }
+          #credit a {
+            text-decoration: underline;
+            background: none;
+            }
+          #credit .twitter::before {
+                content: "";
+                display: inline-block;
+                width: 1.5em;
+                height: 1.5em;
+                background-image: url('pictures/twitter-logo.png');
+                background-size: cover;
+                margin-right: 0.5em;
+                margin-bottom: -0.5em;
+                text-decoration: none;
+            }
+          </style>
+        </section>
 
 
 
 
 
-<script src="shower-core/shower.min.js"></script>
-</body>
+
+
+        <div class="progress">
+      		<div></div>
+      	</div>
+
+    <script src="shower-core/shower.min.js"></script>
+  </body>
+
 </html>
